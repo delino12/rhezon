@@ -332,7 +332,7 @@
                            amazing tour packages
                            </a>
                         </h2>
-                        <p>Duis aute irure dolor in  velit esse cillum dolore eu fugiat nulla.</p>
+                        <p>Rhezon offers a wide variety of rental cars that will best serve your requirements. Whether you need a small vehicle to get around town, attending a conference and need to hire an MPV to carry your team or just require a luxurious drive in one of our premium vehicles, you can be sure to find the perfect car to rent with us.</p>
                      </div><!--/.service-content-->
                   </div><!--/.single-service-box-->
                </div><!--/.col-->
@@ -348,7 +348,7 @@
                               book top class hotel
                            </a>
                         </h2>
-                        <p>Duis aute irure dolor in  velit esse cillum dolore eu fugiat nulla.</p>
+                        <p>As well as providing you with great choice for your next car hire, Rhezon, can also help with the added little extras, to help you on your way in comfort and safety. We provide airport pickup to make sure you arrive conveniently after boarding a flight</p>
                      </div><!--/.service-content-->
                   </div><!--/.single-service-box-->
                </div><!--/.col-->
@@ -365,7 +365,7 @@
                               online flight booking
                            </a>
                         </h2>
-                        <p>Duis aute irure dolor in  velit esse cillum dolore eu fugiat nulla.</p>
+                        <p>As well as providing you with great choice for your next car hire, Rhezon, can also help with the added little extras, to help you on your way in comfort and safety. We provide airport pickup to make sure you arrive conveniently after boarding a flight</p>
                      </div><!--/.service-content-->
                   </div><!--/.single-service-box-->
                </div><!--/.col-->
@@ -384,7 +384,7 @@
                      top destination
                   </h2>
                   <p>
-                     Duis aute irure dolor in  velit esse cillum dolore eu fugiat nulla.  
+                     Are Lagos, Abuja, Kogi, Port Harcourt, Jos, Kano, Kadunna,.  
                   </p>
                </div><!--/.gallery-header-->
                <div class="gallery-box">
@@ -529,7 +529,7 @@
                      <div class="single-package-item">
                         <img src="images/packages/p1.jpg" alt="package-place">
                         <div class="single-package-item-txt">
-                           <h3>italy <span class="pull-right">&#8358;499</span></h3>
+                           <h3>Lagos <span class="pull-right">&#8358;499</span></h3>
                            <div class="packages-para">
                               <p>
                                  <span>
@@ -568,7 +568,7 @@
                      <div class="single-package-item">
                         <img src="images/packages/p2.jpg" alt="package-place">
                         <div class="single-package-item-txt">
-                           <h3>england <span class="pull-right">&#8358;1499</span></h3>
+                           <h3>Abuja <span class="pull-right">&#8358;1499</span></h3>
                            <div class="packages-para">
                               <p>
                                  <span>
@@ -607,7 +607,7 @@
                      <div class="single-package-item">
                         <img src="images/packages/p3.jpg" alt="package-place">
                         <div class="single-package-item-txt">
-                           <h3>france <span class="pull-right">&#8358;1199</span></h3>
+                           <h3>Kogi <span class="pull-right">&#8358;1199</span></h3>
                            <div class="packages-para">
                               <p>
                                  <span>
@@ -646,7 +646,7 @@
                      <div class="single-package-item">
                         <img src="images/packages/p4.jpg" alt="package-place">
                         <div class="single-package-item-txt">
-                           <h3>india <span class="pull-right">&#8358;799</span></h3>
+                           <h3>Kadunna <span class="pull-right">&#8358;799</span></h3>
                            <div class="packages-para">
                               <p>
                                  <span>
@@ -685,7 +685,7 @@
                      <div class="single-package-item">
                         <img src="images/packages/p5.jpg" alt="package-place">
                         <div class="single-package-item-txt">
-                           <h3>spain <span class="pull-right">&#8358;999</span></h3>
+                           <h3>Kanji <span class="pull-right">&#8358;999</span></h3>
                            <div class="packages-para">
                               <p>
                                  <span>
@@ -724,7 +724,7 @@
                      <div class="single-package-item">
                         <img src="images/packages/p6.jpg" alt="package-place">
                         <div class="single-package-item-txt">
-                           <h3>thailand <span class="pull-right">&#8358;799</span></h3>
+                           <h3>port harcourt <span class="pull-right">&#8358;799</span></h3>
                            <div class="packages-para">
                               <p>
                                  <span>
