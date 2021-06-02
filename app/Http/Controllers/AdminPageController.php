@@ -36,12 +36,10 @@ class AdminPageController extends Controller
     | FREE USERS DATA
     |-----------------------------------------
     */
-    public function shippers(Request $request){
+    public function cars(Request $request){
         // body
-        $posts = collect([]);
-        $users = User::where('account_type_id', 1)->get();
-
-        return view('admin.shippers', compact('posts', 'users'));
+        $cars = collect([]);
+        return view('admin.cars', compact('cars'));
     }
     
     /*

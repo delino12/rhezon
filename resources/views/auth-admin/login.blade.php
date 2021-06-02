@@ -19,7 +19,7 @@
                                     <div class="text-center">
                                         <div class="mt-5 mb-5">
                                             <a href="{{url('/')}}" class="">
-                                                <img src="{{asset('images/logo.png')}}" height="auto" width="40%;">
+                                                <img src="{{asset('logo/logo.png')}}" height="auto" width="40%;">
                                             </a>
                                         </div>
                                         <h1 class="h4 text-gray-900 mb-4">Welcome Back!</h1>
