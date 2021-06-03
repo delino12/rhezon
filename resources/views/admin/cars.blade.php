@@ -17,7 +17,44 @@
                     
                 </div>
                 <div class="card-body">
-                    
+                    <table class="table" id="dataTable">
+                        <thead>
+                            <tr>
+                                <th>Image</th>
+                                <th>Model</th>
+                                <th>Year</th>
+                                <th>Type</th>
+                                <th>Price</th>
+                                <th>Discount</th>
+                                <th>Action</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach($cars as $car)
+                            <tr>
+                                <td>
+                                    <img src="{{ $car->screenshot->document_url }}" class="rounded" width="82px" height="82px">
+                                </td>
+                                <td>{{ $car->model }}</td>
+                                <td>{{ $car->year }}</td>
+                                <td>{{ $car->vehicle_type }}</td>
+                                <td>&#8358;{{ number_format($car->price, 2) }}</td>
+                                <td>&#8358;{{ number_format($car->discount_price, 2) }}</td>
+                                <td>
+                                    <a href="javascript:void(0);" onclick="viewDetails({{ json_encode($car) }})" class="btn btn-outline-primary btn-sm">
+                                        View
+                                    </a>
+                                    <a href="javascript:void(0);" onclick="editDetails({{ json_encode($car) }})" class="btn btn-outline-info btn-sm">
+                                        Edit
+                                    </a>
+                                    <a href="javascript:void(0);" onclick="editDetails({{ json_encode($car) }})" class="btn btn-outline-danger btn-sm">
+                                        Delete
+                                    </a>
+                                </td>
+                            </tr>
+                            @endforeach
+                        </tbody>
+                    </table>
                 </div>
             </div>
         </div>

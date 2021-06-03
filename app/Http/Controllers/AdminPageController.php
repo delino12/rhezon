@@ -5,6 +5,8 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Models\User;
 use App\Models\Admin;
+use App\Models\Vehicle;
+use App\Models\VehiclePhoto;
 
 class AdminPageController extends Controller
 {
@@ -38,7 +40,12 @@ class AdminPageController extends Controller
     */
     public function cars(Request $request){
         // body
-        $cars = collect([]);
+        $cars = Vehicle::orderBy('id', 'DESC')->get();
+        $cars->transform(function($item){
+            $item->screenshot = VehiclePhoto::where('vehicle_id', $item->id)->first();
+            return $item;
+        });
+        
         return view('admin.cars', compact('cars'));
     }
     
