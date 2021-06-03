@@ -73,7 +73,7 @@
                                           <h2>destination</h2>
                                           <div class="travel-select-icon">
                                              <select class="form-control ">
-                                                <option value="default">enter your location</option>
+                                                <option value="default">Enter your location</option>
                                                 <option value="1">Kogi</option><!-- /.option-->
                                                 <option value="2">Central</option><!-- /.option-->
                                                 <option value="3">Maitama</option><!-- /.option-->
@@ -85,7 +85,7 @@
                                           <div class="travel-select-icon">
                                              <select class="form-control ">
 
-                                                <option value="default">enter your destination</option><!-- /.option-->
+                                                <option value="default">Enter your destination</option><!-- /.option-->
                                                 <option value="1">Kogi</option><!-- /.option-->
                                                 <option value="2">Central</option><!-- /.option-->
                                                 <option value="3">Maitama</option><!-- /.option-->
@@ -206,7 +206,7 @@
 
                                           <div class="travel-select-icon">
                                              <select class="form-control ">
-                                                <option value="default">enter your location</option>
+                                                <option value="default">Enter your location</option>
                                                 <option value="1">Kogi</option><!-- /.option-->
                                                 <option value="2">Central</option><!-- /.option-->
                                                 <option value="3">Maitama</option><!-- /.option-->
@@ -218,7 +218,7 @@
                                           <div class="travel-select-icon">
                                              <select class="form-control ">
 
-                                                <option value="default">enter your destination</option><!-- /.option-->
+                                                <option value="default">Enter your destination</option><!-- /.option-->
                                                 <option value="1">Kogi</option><!-- /.option-->
                                                 <option value="2">Central</option><!-- /.option-->
                                                 <option value="3">Maitama</option><!-- /.option-->
@@ -394,10 +394,10 @@
 
                            <div class="col-md-6">
                               <div class="filtr-item">
-                                 <img src="images/gallary/g1.jpg" alt="portfolio image"/>
+                                 <img src="images/gallary/lagos.jpg" alt="portfolio image"/>
                                  <div class="item-title">
                                     <a href="#">
-                                       china
+                                       Lagos
                                     </a>
                                     <p><span>20 tours</span><span>15 places</span></p>
                                  </div><!-- /.item-title -->
@@ -406,60 +406,12 @@
 
                            <div class="col-md-6">
                               <div class="filtr-item">
-                                 <img src="images/gallary/g2.jpg" alt="portfolio image"/>
+                                 <img src="images/gallary/abuja.jpg" alt="portfolio image"/>
                                  <div class="item-title">
                                     <a href="#">
-                                       venuzuala
+                                       Abuja
                                     </a>
                                     <p><span>12 tours</span><span>9 places</span></p>
-                                 </div> <!-- /.item-title-->
-                              </div><!-- /.filtr-item -->
-                           </div><!-- /.col -->
-
-                           <div class="col-md-4">
-                              <div class="filtr-item">
-                                 <img src="images/gallary/g3.jpg" alt="portfolio image"/>
-                                 <div class="item-title">
-                                    <a href="#">
-                                       brazil
-                                    </a>
-                                    <p><span>25 tours</span><span>10 places</span></p>
-                                 </div><!-- /.item-title -->
-                              </div><!-- /.filtr-item -->
-                           </div><!-- /.col -->
-
-                           <div class="col-md-4">
-                              <div class="filtr-item">
-                                 <img src="images/gallary/g4.jpg" alt="portfolio image"/>
-                                 <div class="item-title">
-                                    <a href="#">
-                                       australia 
-                                    </a>
-                                    <p><span>18 tours</span><span>9 places</span></p>
-                                 </div> <!-- /.item-title-->
-                              </div><!-- /.filtr-item -->
-                           </div><!-- /.col -->
-
-                           <div class="col-md-4">
-                              <div class="filtr-item">
-                                 <img src="images/gallary/g5.jpg" alt="portfolio image"/>
-                                 <div class="item-title">
-                                    <a href="#">
-                                       netharland
-                                    </a>
-                                    <p><span>14 tours</span><span>12 places</span></p>
-                                 </div> <!-- /.item-title-->
-                              </div><!-- /.filtr-item -->
-                           </div><!-- /.col -->
-
-                           <div class="col-md-8">
-                              <div class="filtr-item">
-                                 <img src="images/gallary/g6.jpg" alt="portfolio image"/>
-                                 <div class="item-title">
-                                    <a href="#">
-                                       turkey
-                                    </a>
-                                    <p><span>14 tours</span><span>6 places</span></p>
                                  </div> <!-- /.item-title-->
                               </div><!-- /.filtr-item -->
                            </div><!-- /.col -->
