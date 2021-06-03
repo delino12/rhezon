@@ -432,7 +432,7 @@
             <div class="row">
                <div class="col-sm-12">
                   <div class="dicount-offer-content text-center">
-                     <h2>Join with us within 21 January, 2018 and get upto 40% Discount</h2>
+                     <h2>Join with us within 21 January, 2021 and get upto 40% Discount</h2>
                      <div class="campaign-timer">
                         <div id="timer">
                            <div class="time time-after" id="days">
@@ -471,7 +471,7 @@
                   special packages
                </h2>
                <p>
-                  Duis aute irure dolor in  velit esse cillum dolore eu fugiat nulla.  
+                  If you are looking for a travelling companion that can meet your every need there should be no other choice opt for the best! We got you covered  
                </p>
             </div><!--/.gallery-header-->
             <div class="packages-content">
@@ -531,7 +531,7 @@
                   clients reviews
                </h2>
                <p>
-                  Duis aute irure dolor in  velit esse cillum dolore eu fugiat nulla. 
+                  If you are looking for a travelling companion that can meet your every need there should be no other choice opt for the best! We got you covered 
                </p>
 
             </div><!--/.gallery-header-->
@@ -548,14 +548,14 @@
                            <i class="fa fa-quote-left" aria-hidden="true"></i>
                         </span>
                         <p>
-                           Lorem ipsum dolor sit amet, contur adip elit, sed do mod incid ut labore et dolore magna aliqua. Ut enim ad minim veniam. 
+                           It was my first time hiring Rhezon. They made my family vacation awesome. Big thumbs up to the guys at Rhezon will do this again.. 
                         </p>
                         <h3>
                            <a href="#">
-                              kevin watson
+                              Ozioma Nwachukwu
                            </a>
                         </h3>
-                        <h4>london, england</h4>
+                        <h4>kuje, Abuja</h4>
                      </div><!--/.home1-testm-txt-->   
                   </div><!--/.home1-testm-single-->
 
@@ -571,14 +571,14 @@
                            <i class="fa fa-quote-left" aria-hidden="true"></i>
                         </span>
                         <p>
-                           Lorem ipsum dolor sit amet, contur adip elit, sed do mod incid ut labore et dolore magna aliqua. Ut enim ad minim veniam. 
+                           Excellent service, very prompt to response. I would recommend Rhezon car hire services anytime.. 
                         </p>
                         <h3>
                            <a href="#">
-                              kevin watson
+                              Ekpoto Matthew
                            </a>
                         </h3>
-                        <h4>london, england</h4>
+                        <h4> ikoyi, Lagos</h4>
                      </div><!--/.home1-testm-txt-->   
                   </div><!--/.home1-testm-single-->
 
@@ -594,14 +594,14 @@
                            <i class="fa fa-quote-left" aria-hidden="true"></i>
                         </span>
                         <p>
-                           Lorem ipsum dolor sit amet, contur adip elit, sed do mod incid ut labore et dolore magna aliqua. Ut enim ad minim veniam. 
+                           i love the Quick Respons, very prompt to response. I would recommend Rhezon car hire services to All my Friend.. 
                         </p>
                         <h3>
                            <a href="#">
-                              kevin watson
+                              James Adeniyi
                            </a>
                         </h3>
-                        <h4>london, england</h4>
+                        <h4>Kadunna, Kadunna</h4>
                      </div><!--/.home1-testm-txt-->   
                   </div><!--/.home1-testm-single-->
 
@@ -617,14 +617,14 @@
                            <i class="fa fa-quote-left" aria-hidden="true"></i>
                         </span>
                         <p>
-                           Lorem ipsum dolor sit amet, contur adip elit, sed do mod incid ut labore et dolore magna aliqua. Ut enim ad minim veniam. 
+                           At First, when my friend told me about Rhezon Car hire, i know they was something so special about it, I would recommend Rhezon car hire services to All my Friend . 
                         </p>
                         <h3>
                            <a href="#">
-                              kevin watson
+                              Liberty Bernard
                            </a>
                         </h3>
-                        <h4>london, england</h4>
+                        <h4>Lekki phase 1, Lagos</h4>
                      </div><!--/.home1-testm-txt-->   
                   </div><!--/.home1-testm-single-->
 
@@ -640,14 +640,14 @@
                            <i class="fa fa-quote-left" aria-hidden="true"></i>
                         </span>
                         <p>
-                           Lorem ipsum dolor sit amet, contur adip elit, sed do mod incid ut labore et dolore magna aliqua. Ut enim ad minim veniam. 
+                           Excellent service, very prompt to response. I would recommend Rhezon car hire services anytime... 
                         </p>
                         <h3>
                            <a href="#">
-                              kevin watson
+                              Dorcas Yakubu
                            </a>
                         </h3>
-                        <h4>london, england</h4>
+                        <h4>Kogi, Kogi</h4>
                      </div><!--/.home1-testm-txt-->   
                   </div><!--/.home1-testm-single-->
 
@@ -663,87 +663,20 @@
                            <i class="fa fa-quote-left" aria-hidden="true"></i>
                         </span>
                         <p>
-                           Lorem ipsum dolor sit amet, contur adip elit, sed do mod incid ut labore et dolore magna aliqua. Ut enim ad minim veniam. 
+                            i love the Quick Respons, very prompt to response. I would recommend Rhezon car hire services to All my Friend.. 
                         </p>
                         <h3>
                            <a href="#">
-                              kevin watson
+                              ThankGod Solomon
                            </a>
                         </h3>
-                        <h4>london, england</h4>
+                        <h4>Rumokoro, Port Harcourt</h4>
                      </div><!--/.home1-testm-txt-->   
                   </div><!--/.home1-testm-single-->
 
                </div><!--/.item-->
 
-               <div class="home1-testm item">
-                  <div class="home1-testm-single text-center">
-                     <div class="home1-testm-img">
-                        <img src="images/client/testimonial1.jpg" alt="img"/>
-                     </div><!--/.home1-testm-img-->
-                     <div class="home1-testm-txt">
-                        <span class="icon section-icon">
-                           <i class="fa fa-quote-left" aria-hidden="true"></i>
-                        </span>
-                        <p>
-                           Lorem ipsum dolor sit amet, contur adip elit, sed do mod incid ut labore et dolore magna aliqua. Ut enim ad minim veniam. 
-                        </p>
-                        <h3>
-                           <a href="#">
-                              kevin watson
-                           </a>
-                        </h3>
-                        <h4>london, england</h4>
-                     </div><!--/.home1-testm-txt-->   
-                  </div><!--/.home1-testm-single-->
 
-               </div><!--/.item-->
-
-               <div class="home1-testm item">
-                  <div class="home1-testm-single text-center">
-                     <div class="home1-testm-img">
-                        <img src="images/client/testimonial2.jpg" alt="img"/>
-                     </div><!--/.home1-testm-img-->
-                     <div class="home1-testm-txt">
-                        <span class="icon section-icon">
-                           <i class="fa fa-quote-left" aria-hidden="true"></i>
-                        </span>
-                        <p>
-                           Lorem ipsum dolor sit amet, contur adip elit, sed do mod incid ut labore et dolore magna aliqua. Ut enim ad minim veniam. 
-                        </p>
-                        <h3>
-                           <a href="#">
-                              kevin watson
-                           </a>
-                        </h3>
-                        <h4>london, england</h4>
-                     </div><!--/.home1-testm-txt-->   
-                  </div><!--/.home1-testm-single-->
-
-               </div><!--/.item-->
-
-               <div class="home1-testm item">
-                  <div class="home1-testm-single text-center">
-                     <div class="home1-testm-img">
-                        <img src="images/client/testimonial1.jpg" alt="img"/>
-                     </div><!--/.home1-testm-img-->
-                     <div class="home1-testm-txt">
-                        <span class="icon section-icon">
-                           <i class="fa fa-quote-left" aria-hidden="true"></i>
-                        </span>
-                        <p>
-                           Lorem ipsum dolor sit amet, contur adip elit, sed do mod incid ut labore et dolore magna aliqua. Ut enim ad minim veniam. 
-                        </p>
-                        <h3>
-                           <a href="#">
-                              kevin watson
-                           </a>
-                        </h3>
-                        <h4>london, england</h4>
-                     </div><!--/.home1-testm-txt-->   
-                  </div><!--/.home1-testm-single-->
-
-               </div><!--/.item-->
 
             </div><!--/.testemonial-carousel-->
          </div><!--/.container-->
@@ -758,19 +691,13 @@
                   <div class="col-sm-8">
                      <div class="single-special-offer">
                         <div class="single-special-offer-txt">
-                           <h2>Transcorp Special</h2>
-                           <div class="packages-review special-offer-review">
-                              <p>
-                                 <i class="fa fa-star"></i>
-                                 <i class="fa fa-star"></i>
-                                 <i class="fa fa-star"></i>
-                                 <i class="fa fa-star"></i>
-                                 <i class="fa fa-star"></i>
-                                 <span>2544 review</span>
-                              </p>
-                           </div><!--/.packages-review-->
+                           <h2>ABOUT RHEZON</h2>
+                          
                            <div class="packages-para special-offer-para">
-                              <p>
+                              <p>At Rhezon Car rental, we not only pride ourselves on being a leading car rental company offering premium quality cars and highly efficient service, but we are also a company that can meet your every need, taking you anywhere that you might want to go. When on the road, Rhezon car rental can be your most trusted companion. The company is even able to offer advice and tips regarding vehicles and motoring that will help your company to grow successfully.
+                              If you are looking for a travelling companion that can meet your every need there should be no other choice opt for the best! We got you covered. We have now achieved our goals of becoming a leader in both long and short term car rental business. We also offer a range of other cutting edge transportation services.
+                              Each drive you take offers the chance to build new and perhaps long-lasting memories. So let Rhezon car rental join you on this journey and provide you with an experience that is, in may ways beyond driving</p>
+                              {{-- <p>
                                  <span>
                                     <i class="fa fa-angle-right"></i> 5 daays 6 nights
                                  </span>
@@ -788,11 +715,24 @@
                                  <span>
                                     <i class="fa fa-angle-right"></i>  food facilities
                                  </span>  
-                              </p>
+                              </p> --}}
                               <p class="offer-para">
-                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tem ut labore et dolore magna  aliqua. Ut enim ad minim veniam, quis nostrud exercitation una <br> ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                                 Each drive you take offers the chance to build new and perhaps long-lasting memories. So let Rhezon car rental join you on this journey and provide you with an experience that is, in may ways beyond driving.
+                                 Tel: +234(0)80 39662017 (Open: 7am to 10pm, seven days a week) 
                               </p>
                            </div><!--/.packages-para-->
+
+                            <div class="packages-review special-offer-review">
+                              <p>
+                                 <i class="fa fa-star"></i>
+                                 <i class="fa fa-star"></i>
+                                 <i class="fa fa-star"></i>
+                                 <i class="fa fa-star"></i>
+                                 <i class="fa fa-star"></i>
+                                 <span>2544 review</span>
+                              </p>
+                           </div><!--/.packages-review-->
+
                            <div class="offer-btn-group">
                               <div class="about-btn">
                                  <button  class="about-view packages-btn offfer-btn">
@@ -835,7 +775,8 @@
                         Explore with Rhezon ride
                      </h2>
                      <p>
-                        Experience comfort and security...
+                       At Rhezon We have now achieved our goals of becoming a leader in both long and short term car rental business. We also offer a range of other cutting edge transportation services.
+                        Each drive you take offers the chance to build new and perhaps long-lasting memories. So let Rhezon car rental join you on this journey and provide you with an experience that is, in may ways beyond driving
                      </p>
                   </div><!--/.gallery-header-->
                </div><!--/.blog-details-->
