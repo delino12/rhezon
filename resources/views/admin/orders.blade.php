@@ -132,7 +132,15 @@
                         </tr>
                         <tr>
                             <td>Amount Paid</td>
-                            <td>&#8358;${order.vehicle.price}</td>
+                            <td>&#8358;${number_format(order.vehicle.price, 2)}</td>
+                        </tr>
+                        <tr>
+                            <td>Trip Type</td>
+                            <td>${order.order_type}</td>
+                        </tr>
+                        <tr>
+                            <td>No. of Passenger</td>
+                            <td>${order.no_of_passenger}</td>
                         </tr>
                     </tbody>
                 </table>

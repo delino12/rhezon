@@ -313,6 +313,7 @@
             $("#location_axis").val(car.location_axis);
             $("#destination_axis").val(car.destination_axis);
             // $("#features").html(car.features);
+            $("#features").summernote('code', car.features);
             $("#add-car-modal").modal();
         }
 
