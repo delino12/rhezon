@@ -88,6 +88,14 @@ class Vehicle extends Model
     */
     public function deleteOne($payload){
     	// body
+        $vehicle = Vehicle::find($payload->id)->delete();
+        $data = [
+            'status'    => 'success',
+            'message'   => 'Deleted!'
+        ];
+
+        // return
+        return $data;
     }
     
     /*

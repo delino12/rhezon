@@ -41,13 +41,10 @@
                                 <td>&#8358;{{ number_format($car->price, 2) }}</td>
                                 <td>&#8358;{{ number_format($car->discount_price, 2) }}</td>
                                 <td>
-                                    <a href="javascript:void(0);" onclick="viewDetails({{ json_encode($car) }})" class="btn btn-outline-primary btn-sm">
-                                        View
-                                    </a>
                                     <a href="javascript:void(0);" onclick="editDetails({{ json_encode($car) }})" class="btn btn-outline-info btn-sm">
                                         Edit
                                     </a>
-                                    <a href="javascript:void(0);" onclick="editDetails({{ json_encode($car) }})" class="btn btn-outline-danger btn-sm">
+                                    <a href="javascript:void(0);" onclick="deleteCar({{ json_encode($car) }})" class="btn btn-outline-danger btn-sm">
                                         Delete
                                     </a>
                                 </td>
@@ -66,7 +63,7 @@
         <div class="modal-dialog modal-lg modal-dialog-centered">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h4>Add Car</h4>
+                    <h4>Add/Update Car</h4>
                 </div>
                 <div class="modal-body">
                     <form method="POST" onsubmit="return addCar()" enctype="multipart/form-data">
@@ -274,7 +271,8 @@
             xhr.onreadystatechange = function() {
                 if (xhr.readyState == XMLHttpRequest.DONE) {
                     let results = JSON.parse(xhr.responseText);
-                    console.log(results);
+                    // console.log(results);
+                    window.location.reload();
                 }
             }
 
@@ -301,6 +299,42 @@
             return false;
         }
 
-        
+        function editDetails(car) {
+            $("#vehicle_type").val(car.vehicle_type);
+            $("#hidden_vehicle_id").val(car.id);
+            $("#vehicle_type_reg").val(car.vehicle_reg_type);
+            $("#update_flag").val("true");
+            $("#model").val(car.model);
+            $("#year").val(car.year);
+            $("#reg_number").val(car.reg_number);
+            $("#color").val(car.color);
+            $("#price").val(car.price);
+            $("#discount_price").val(car.discount_price);
+            $("#location_axis").val(car.location_axis);
+            $("#destination_axis").val(car.destination_axis);
+            // $("#features").html(car.features);
+            $("#add-car-modal").modal();
+        }
+
+        function deleteCar(car) {
+            var _token = '{{ csrf_token() }}';
+            var id = car.id;
+
+            var query = {_token, id}
+            fetch(`{{url('admin/cars/delete')}}`, {
+                method: 'DELETE',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify(query)
+            }).then(r => {
+                return r.json();
+            }).then(results => {
+                console.log(results);
+                window.location.reload();
+            }).catch(err => {
+                console.log(err);
+            });
+        }
     </script>
 @endsection

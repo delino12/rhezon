@@ -506,7 +506,7 @@
                                  </p>
                               </div><!--/.packages-review-->
                               <div class="about-btn">
-                                 <button  class="about-view packages-btn">
+                                 <button  class="about-view packages-btn" onclick="showBookNowModal({{ json_encode($car) }})">
                                     book now
                                  </button>
                               </div><!--/.about-btn-->
@@ -811,15 +811,248 @@
          </div>
       </section>
       <!--subscribe end-->
+
+   <!-- SHOW BOOK NOW MODAL -->
+    <div class="modal fade" id="book-now-modal" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4>Book</h4>
+                </div>
+                <div class="modal-body">
+                    <form method="POST" onsubmit="return false()">
+                        <div class="row">
+                           <div class="col-md-12" id="image-section"></div>
+                           <div class="col-md-12" id="contents-section"></div>
+
+                           <input type="hidden" id="car_id" name="car_id">
+                           <input type="hidden" id="car_model" name="car_model">
+                           <input type="hidden" id="car_year" name="car_year">
+                           <input type="hidden" id="car_price" name="car_price">
+                        </div>
+                       <div class="row">
+                          <div class="col-md-6">
+                           <label for="customer_name">Name</label>
+                             <div class="travel-user-icon">
+                                <input type="text" id="customer_name" class="form-control" name="customer_name">
+                             </div>
+                          </div>
+
+                          <div class="col-md-6">
+                           <label for="customer_phone">Phone</label>
+                             <div class="travel-check-icon">
+                                <input type="text" id="customer_phone" class="form-control" name="customer_phone">
+                             </div>
+                          </div>
+                       </div>
+
+                       <div class="row">
+                          <div class="col-md-12">
+                           <label for="customer_email">Email</label>
+                             <div class="travel-check-icon">
+                                <input type="email" id="customer_email" class="form-control" name="customer_email">
+                             </div>
+                          </div>
+                       </div>
+
+                       <div class="row">
+                           <div class="col-md-6">
+                              <div class="single-tab-select-box">
+
+                                 <h2>Location</h2>
+                                 <div class="travel-select-icon">
+                                    <select class="form-control" id="customer_location">
+                                       <option value="default">Enter your location</option>
+                                       <option value="1">Kogi</option><!-- /.option-->
+                                       <option value="2">Central</option><!-- /.option-->
+                                       <option value="3">Maitama</option><!-- /.option-->
+                                       <option value="4">Gwarimpa</option><!-- /.option-->
+                                       <option value="5">Abuja</option><!-- /.option-->
+                                    </select><!-- /.select-->
+                                 </div><!-- /.travel-select-icon -->
+
+                                 <h2>Destination</h2>
+                                 <div class="travel-select-icon">
+                                    
+                                    <select class="form-control" id="customer_destination">
+                                       <option value="default">Enter your destination</option><!-- /.option-->
+                                       <option value="1">Kogi</option><!-- /.option-->
+                                       <option value="2">Central</option><!-- /.option-->
+                                       <option value="3">Maitama</option><!-- /.option-->
+                                       <option value="4">Gwarimpa</option><!-- /.option-->
+                                       <option value="5">Abuja</option><!-- /.option-->
+                                    </select><!-- /.select-->
+                                 </div><!-- /.travel-select-icon -->
+
+                              </div><!--/.single-tab-select-box-->
+                           </div><!--/.col-->
+
+                           <div class="col-md-6">
+                              <div class="single-tab-select-box">
+                                 <h2>Pick-up Date</h2>
+                                 <div class="travel-check-icon">
+                                    <form action="#">
+                                       <input type="text" id="customer_pickup" class="form-control" data-toggle="datepicker" placeholder="12 -01 - 2021 ">
+                                    </form>
+                                 </div><!-- /.travel-check-icon -->
+                              </div><!--/.single-tab-select-box-->
+                           </div><!--/.col-->
+
+                           <div class="col-md-6">
+                              <div class="single-tab-select-box">
+                                 <h2>Drop-off Date</h2>
+                                 <div class="travel-check-icon">
+                                    <form action="#">
+                                       <input type="text" id="customer_dropoff" class="form-control"  data-toggle="datepicker" placeholder="22 -01 - 2021">
+                                    </form>
+                                 </div><!-- /.travel-check-icon -->
+                              </div><!--/.single-tab-select-box-->
+                           </div><!--/.col-->
+
+                           <div class="col-md-6">
+                              <div class="single-tab-select-box">
+                                 <h2>duration</h2>
+                                 <div class="travel-select-icon">
+                                    <select class="form-control" id="customer_duration">
+                                       <option value="1" selected="">1</option><!-- /.option-->
+                                       <option value="5">5</option><!-- /.option-->
+                                       <option value="10">10</option><!-- /.option-->
+                                       <option value="15">15</option><!-- /.option-->
+                                       <option value="20">20</option><!-- /.option-->
+                                    </select><!-- /.select-->
+                                 </div><!-- /.travel-select-icon -->
+                              </div><!--/.single-tab-select-box-->
+                           </div><!--/.col-->
+
+                           <div class="col-md-6">
+                              <div class="single-tab-select-box">
+                                 <h2>members</h2>
+                                 <div class="travel-select-icon">
+                                    <select class="form-control" id="customer_members">
+                                       <option value="1">1</option><!-- /.option-->
+                                       <option value="2">2</option><!-- /.option-->
+                                       <option value="3">3</option><!-- /.option-->
+                                       <option value="4">4</option><!-- /.option-->
+                                       <option value="5">5</option><!-- /.option-->
+                                       <option value="8">8</option><!-- /.option-->
+                                    </select><!-- /.select-->
+                                 </div><!-- /.travel-select-icon -->
+                              </div><!--/.single-tab-select-box-->
+                           </div><!--/.col-->
+
+                        </div><!--/.row-->
+
+
+                        <div class="row">
+                          <div class="col-md-12 text-center">
+                             <button class="about-view packages-btn" onclick="payWithPaystack()">
+                                Pay
+                             </button>
+                          </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <div class="pull-right">
+                        <button class="btn btn-flat" type="button" data-dismiss="modal">
+                            close
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 @endsection
 
 @section('scripts')
-   <script type="text/javascript">
-      $(".travel-btn").click((e) => {
-         e.preventDefault();
+    <script src="https://js.paystack.co/v1/inline.js"></script>
+    <script type="text/javascript">
+        function payWithPaystack(){
+            var customer   = $("#customer_name").val();
+            var phone      = $("#customer_phone").val();
+            var email      = $("#customer_email").val();
+            var car_price  = $("#car_price").val();
+            var amount     = parseInt(car_price) * 100;
 
+            var handler = PaystackPop.setup({
+             key: '{{ env("PAYSTACK_PUBLIC_KEY") }}',
+             email: email,
+             amount: amount,
+             currency: "NGN",
+             ref: 'RHEZONX'+Math.floor((Math.random() * 1000000000) + 1), // generates a pseudo-unique reference. Please replace with a reference you generated. Or remove the line entirely so our API will generate one for you
+             metadata: {
+                custom_fields: [
+                   {
+                       display_name: "Mobile Number",
+                       variable_name: "mobile_number",
+                       value: phone
+                   }
+                ]
+             },
+                callback: function(response){
+                    // alert('success. transaction ref is ' + response.reference);
+                    var reference = response.reference;
+                    saveOrderRequest(reference);
+                },
+                onClose: function(){
+                    alert('window closed');
+                }
+            });
+       handler.openIframe();
+     }
 
-         window.location.href = "{{url('search-rides')}}";
-      });
-   </script>
+        function saveOrderRequest(reference) {
+            var _token = '{{ csrf_token() }}';
+            var customer   = $("#customer_name").val();
+            var phone      = $("#customer_phone").val();
+            var email      = $("#customer_email").val();
+            var location = $("#customer_location").val();
+            var destination = $("#customer_destination").val();
+            var pickup = $("#customer_pickup").val();
+            var dropoff = $("#customer_dropoff").val();
+            var duration = $("#customer_duration").val();
+            var members = $("#customer_members").val();
+            var car_id     = $("#car_id").val();
+
+            var query = {_token, amount, reference, customer, phone, email, car_id, location, destination, pickup, dropoff, duration, members}
+
+            fetch(`{{url('book/order')}}`, {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify(query)
+            }).then(r => {
+                return r.json();
+            }).then(results => {
+                console.log(results);
+            }).catch(err => {
+                console.log(err);
+            });
+        }
+
+        $(".travel-btn").click((e) => {
+            e.preventDefault();
+            window.location.href = "{{url('search-rides')}}";
+        });
+
+        function showBookNowModal(car) {
+            $("#car_id").val(car.id);
+            $("#car_model").val(car.model);
+            $("#car_year").val(car.year);
+            $("#car_price").val(car.price);
+
+            $("#image-section").html(`
+                <img src="${car.screenshot.document_url}" class="rounded" />
+            `);
+
+            $("#contents-section").html(`
+                <br />
+            `);
+
+            $("#book-now-modal").modal({
+                backdrop: false
+            });
+        }
+    </script>
 @endsection

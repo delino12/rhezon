@@ -7,6 +7,8 @@ use App\Models\User;
 use App\Models\Admin;
 use App\Models\Vehicle;
 use App\Models\VehiclePhoto;
+use App\Models\Order;
+use App\Models\Location;
 
 class AdminPageController extends Controller
 {
@@ -48,6 +50,25 @@ class AdminPageController extends Controller
         
         return view('admin.cars', compact('cars'));
     }
+
+    /*
+    |-----------------------------------------
+    | ORDERS USERS DATA
+    |-----------------------------------------
+    */
+    public function orders(Request $request){
+        // body
+        $orders = Order::orderBy('id', 'DESC')->get();
+        $orders->transform(function($item){
+            $item->vehicle = Vehicle::where('id', $item->vehicle_id)->first();
+            $item->location = Location::where("id", $item->location)->first();
+            $item->destination = Location::where("id", $item->destination)->first();
+            return $item;
+        });
+        
+        return view('admin.orders', compact('orders'));
+    }
+
     
     /*
     |-----------------------------------------
