@@ -17,7 +17,7 @@
                               Explore the Beauty riding with <br /> Rhezon
                            </h2>
                            <div class="about-btn">
-                              <button  class="about-view">
+                              <button  class="about-view" onclick="window.location.href = 'search-rides';">
                                  explore now
                               </button>
                            </div><!--/.about-btn-->
@@ -72,25 +72,14 @@
 
                                           <h2>destination</h2>
                                           <div class="travel-select-icon">
-                                             <select class="form-control ">
+                                             <select class="form-control" id="search_location">
                                                 <option value="default">Enter your location</option>
-                                                <option value="1">Kogi</option><!-- /.option-->
-                                                <option value="2">Central</option><!-- /.option-->
-                                                <option value="3">Maitama</option><!-- /.option-->
-                                                <option value="4">Gwarimpa</option><!-- /.option-->
-                                                <option value="5">Abuja</option><!-- /.option-->
                                              </select><!-- /.select-->
                                           </div><!-- /.travel-select-icon -->
 
                                           <div class="travel-select-icon">
-                                             <select class="form-control ">
-
-                                                <option value="default">Enter your destination</option><!-- /.option-->
-                                                <option value="1">Kogi</option><!-- /.option-->
-                                                <option value="2">Central</option><!-- /.option-->
-                                                <option value="3">Maitama</option><!-- /.option-->
-                                                <option value="4">Gwarimpa</option><!-- /.option-->
-                                                <option value="5">Abuja</option><!-- /.option-->
+                                             <select class="form-control" id="search_destination">
+                                                <option value="default">Enter your destination</option>
                                              </select><!-- /.select-->
                                           </div><!-- /.travel-select-icon -->
 
@@ -119,19 +108,35 @@
                                        </div><!--/.single-tab-select-box-->
                                     </div><!--/.col-->
 
-                                    <div class="col-lg-2 col-md-1 col-sm-4">
+                                    <div class="col-lg-2 col-md-3 col-sm-4">
                                        <div class="single-tab-select-box">
-                                          <h2>duration</h2>
+                                          <h2>duration (hours)</h2>
                                           <div class="travel-select-icon">
-                                             <select class="form-control ">
-
-                                                <option value="default">5</option><!-- /.option-->
-
-                                                <option value="10">10</option><!-- /.option-->
-
-                                                <option value="15">15</option><!-- /.option-->
-                                                <option value="20">20</option><!-- /.option-->
-
+                                             <select class="form-control" id="search_duration">
+                                                <option value="1">1 hr</option><!-- /.option-->
+                                                <option value="2">2 hrs</option><!-- /.option-->
+                                                <option value="3">3 hrs</option><!-- /.option-->
+                                                <option value="4">4 hrs</option><!-- /.option-->
+                                                <option value="5">5 hrs</option><!-- /.option-->
+                                                <option value="6">6 hrs</option><!-- /.option-->
+                                                <option value="7">7 hrs</option><!-- /.option-->
+                                                <option value="8">8 hrs</option><!-- /.option-->
+                                                <option value="9">9 hrs</option><!-- /.option-->
+                                                <option value="10">10 hrs</option><!-- /.option-->
+                                                <option value="11">11 hrs</option><!-- /.option-->
+                                                <option value="12">12 hrs</option><!-- /.option-->
+                                                <option value="13">13 hrs</option><!-- /.option-->
+                                                <option value="14">14 hrs</option><!-- /.option-->
+                                                <option value="15">15 hrs</option><!-- /.option-->
+                                                <option value="16">16 hrs</option><!-- /.option-->
+                                                <option value="17">17 hrs</option><!-- /.option-->
+                                                <option value="18">18 hrs</option><!-- /.option-->
+                                                <option value="19">19 hrs</option><!-- /.option-->
+                                                <option value="20">20 hrs</option><!-- /.option-->
+                                                <option value="21">21 hrs</option><!-- /.option-->
+                                                <option value="22">22 hrs</option><!-- /.option-->
+                                                <option value="23">23 hrs</option><!-- /.option-->
+                                                <option value="24">24 hrs</option><!-- /.option-->
                                              </select><!-- /.select-->
                                           </div><!-- /.travel-select-icon -->
                                        </div><!--/.single-tab-select-box-->
@@ -205,25 +210,12 @@
                                           <h2>destination</h2>
 
                                           <div class="travel-select-icon">
-                                             <select class="form-control ">
-                                                <option value="default">Enter your location</option>
-                                                <option value="1">Kogi</option><!-- /.option-->
-                                                <option value="2">Central</option><!-- /.option-->
-                                                <option value="3">Maitama</option><!-- /.option-->
-                                                <option value="4">Gwarimpa</option><!-- /.option-->
-                                                <option value="5">Abuja</option><!-- /.option-->
+                                             <select class="form-control" id="search_location_2">
                                              </select><!-- /.select-->
                                           </div><!-- /.travel-select-icon -->
 
                                           <div class="travel-select-icon">
-                                             <select class="form-control ">
-
-                                                <option value="default">Enter your destination</option><!-- /.option-->
-                                                <option value="1">Kogi</option><!-- /.option-->
-                                                <option value="2">Central</option><!-- /.option-->
-                                                <option value="3">Maitama</option><!-- /.option-->
-                                                <option value="4">Gwarimpa</option><!-- /.option-->
-                                                <option value="5">Abuja</option><!-- /.option-->
+                                             <select class="form-control" id="search_destination_2">
                                              </select><!-- /.select-->
                                           </div><!-- /.travel-select-icon -->
 
@@ -252,19 +244,35 @@
                                        </div><!--/.single-tab-select-box-->
                                     </div><!--/.col-->
 
-                                    <div class="col-lg-2 col-md-1 col-sm-4">
+                                    <div class="col-lg-2 col-md-3 col-sm-4">
                                        <div class="single-tab-select-box">
-                                          <h2>duration</h2>
+                                          <h2>duration (hours)</h2>
                                           <div class="travel-select-icon">
-                                             <select class="form-control ">
-
-                                                <option value="default">5</option><!-- /.option-->
-
-                                                <option value="10">10</option><!-- /.option-->
-
-                                                <option value="15">15</option><!-- /.option-->
-                                                <option value="20">20</option><!-- /.option-->
-
+                                             <select class="form-control" id="search_duration">
+                                                <option value="1">1 hr</option><!-- /.option-->
+                                                <option value="2">2 hrs</option><!-- /.option-->
+                                                <option value="3">3 hrs</option><!-- /.option-->
+                                                <option value="4">4 hrs</option><!-- /.option-->
+                                                <option value="5">5 hrs</option><!-- /.option-->
+                                                <option value="6">6 hrs</option><!-- /.option-->
+                                                <option value="7">7 hrs</option><!-- /.option-->
+                                                <option value="8">8 hrs</option><!-- /.option-->
+                                                <option value="9">9 hrs</option><!-- /.option-->
+                                                <option value="10">10 hrs</option><!-- /.option-->
+                                                <option value="11">11 hrs</option><!-- /.option-->
+                                                <option value="12">12 hrs</option><!-- /.option-->
+                                                <option value="13">13 hrs</option><!-- /.option-->
+                                                <option value="14">14 hrs</option><!-- /.option-->
+                                                <option value="15">15 hrs</option><!-- /.option-->
+                                                <option value="16">16 hrs</option><!-- /.option-->
+                                                <option value="17">17 hrs</option><!-- /.option-->
+                                                <option value="18">18 hrs</option><!-- /.option-->
+                                                <option value="19">19 hrs</option><!-- /.option-->
+                                                <option value="20">20 hrs</option><!-- /.option-->
+                                                <option value="21">21 hrs</option><!-- /.option-->
+                                                <option value="22">22 hrs</option><!-- /.option-->
+                                                <option value="23">23 hrs</option><!-- /.option-->
+                                                <option value="24">24 hrs</option><!-- /.option-->
                                              </select><!-- /.select-->
                                           </div><!-- /.travel-select-icon -->
                                        </div><!--/.single-tab-select-box-->
@@ -911,14 +919,33 @@
 
                            <div class="col-md-6">
                               <div class="single-tab-select-box">
-                                 <h2>duration</h2>
+                                 <h2>duration (hours)</h2>
                                  <div class="travel-select-icon">
                                     <select class="form-control" id="customer_duration">
-                                       <option value="1" selected="">1</option><!-- /.option-->
-                                       <option value="5">5</option><!-- /.option-->
-                                       <option value="10">10</option><!-- /.option-->
-                                       <option value="15">15</option><!-- /.option-->
-                                       <option value="20">20</option><!-- /.option-->
+                                       <option value="1">1 hr</option><!-- /.option-->
+                                       <option value="2">2 hrs</option><!-- /.option-->
+                                       <option value="3">3 hrs</option><!-- /.option-->
+                                       <option value="4">4 hrs</option><!-- /.option-->
+                                       <option value="5">5 hrs</option><!-- /.option-->
+                                       <option value="6">6 hrs</option><!-- /.option-->
+                                       <option value="7">7 hrs</option><!-- /.option-->
+                                       <option value="8">8 hrs</option><!-- /.option-->
+                                       <option value="9">9 hrs</option><!-- /.option-->
+                                       <option value="10">10 hrs</option><!-- /.option-->
+                                       <option value="11">11 hrs</option><!-- /.option-->
+                                       <option value="12">12 hrs</option><!-- /.option-->
+                                       <option value="13">13 hrs</option><!-- /.option-->
+                                       <option value="14">14 hrs</option><!-- /.option-->
+                                       <option value="15">15 hrs</option><!-- /.option-->
+                                       <option value="16">16 hrs</option><!-- /.option-->
+                                       <option value="17">17 hrs</option><!-- /.option-->
+                                       <option value="18">18 hrs</option><!-- /.option-->
+                                       <option value="19">19 hrs</option><!-- /.option-->
+                                       <option value="20">20 hrs</option><!-- /.option-->
+                                       <option value="21">21 hrs</option><!-- /.option-->
+                                       <option value="22">22 hrs</option><!-- /.option-->
+                                       <option value="23">23 hrs</option><!-- /.option-->
+                                       <option value="24">24 hrs</option><!-- /.option-->
                                     </select><!-- /.select-->
                                  </div><!-- /.travel-select-icon -->
                               </div><!--/.single-tab-select-box-->
@@ -967,6 +994,8 @@
 @section('scripts')
     <script src="https://js.paystack.co/v1/inline.js"></script>
     <script type="text/javascript">
+      fetchLocation();
+
         function payWithPaystack(){
             var customer   = $("#customer_name").val();
             var phone      = $("#customer_phone").val();
@@ -1052,6 +1081,99 @@
 
             $("#book-now-modal").modal({
                 backdrop: false
+            });
+        }
+
+        function fetchLocation() {
+            fetch('{{url("database/location.json")}}').then(r => r.json()).then(data => {
+                $("#customer_location").html('');
+                $("#customer_location").append(`
+                    <option value="">-- select state --</option>
+                `);
+                $.each(data, function(index, val) {
+                    /* iterate through array or object */
+                    $("#customer_location").append(`
+                        <option value="${val.name}">${val.name}</option>
+                    `);
+                });
+
+                $("#customer_destination").html('');
+                $("#customer_destination").append(`
+                    <option value="">-- select state --</option>
+                `);
+                $.each(data, function(index, val) {
+                    /* iterate through array or object */
+                    $("#customer_destination").append(`
+                        <option value="${val.name}">${val.name}</option>
+                    `);
+                });
+
+                $("#search_location").html('');
+                $("#search_location").append(`
+                    <option value="">-- select state --</option>
+                `);
+                $.each(data, function(index, val) {
+                    /* iterate through array or object */
+                    $("#search_location").append(`
+                        <option value="${val.name}">${val.name}</option>
+                    `);
+                });
+
+                $("#search_destination").html('');
+                $("#search_destination").append(`
+                    <option value="">-- select state --</option>
+                `);
+                $.each(data, function(index, val) {
+                    /* iterate through array or object */
+                    $("#search_destination").append(`
+                        <option value="${val.name}">${val.name}</option>
+                    `);
+                });
+
+
+                $("#search_location_2").html('');
+                $("#search_location_2").append(`
+                    <option value="">-- select state --</option>
+                `);
+                $.each(data, function(index, val) {
+                    /* iterate through array or object */
+                    $("#search_location_2").append(`
+                        <option value="${val.name}">${val.name}</option>
+                    `);
+                });
+
+                $("#search_destination_2").html('');
+                $("#search_destination_2").append(`
+                    <option value="">-- select state --</option>
+                `);
+                $.each(data, function(index, val) {
+                    /* iterate through array or object */
+                    $("#search_destination_2").append(`
+                        <option value="${val.name}">${val.name}</option>
+                    `);
+                });
+
+                
+
+            }).catch(err => {
+              console.log(err);
+            });
+        }
+
+        function showLocalGovt(){
+            var state = $("#state").val();
+            // console.log(state);
+            $.getJSON("/database/location.json", function(data){
+                $.each(data, function(index, val) {
+                    if(state == val.name){
+                        $("#lga").html("");
+                        $.each(val.lga, function(index, val){
+                            $("#lga").append(`
+                                <option value="${val}">${val}</option>
+                            `);
+                        })
+                    }
+                });
             });
         }
     </script>

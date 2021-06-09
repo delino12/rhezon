@@ -94,8 +94,9 @@
                               <li class="smooth-menu"><a href="#spo">Special Offers</a></li>
                               <li class="smooth-menu"><a href="#subs">subscription</a></li>
                               <li>
-                                 <button class="book-btn">book now
-                                 </button>
+                                 <a href="{{url('search-rides')}}" class="book-btn">
+                                    book now
+                                 </a>
                               </li><!--/.project-btn--> 
                            </ul>
                         </div><!-- /.navbar-collapse -->

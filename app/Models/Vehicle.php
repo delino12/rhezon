@@ -27,28 +27,33 @@ class Vehicle extends Model
     */
     public function addOne($payload){
     	// body
-    	$vehicle 					= new Vehicle();
-    	$vehicle->user_id 			= 1;
-    	$vehicle->vehicle_type 		= $payload->vehicle_type;
-    	$vehicle->vehicle_reg_type 	= $payload->vehicle_type_reg;
-    	$vehicle->model 			= $payload->model;
-    	$vehicle->year 				= $payload->year;
-    	$vehicle->reg_number 		= $payload->reg_number;
-    	$vehicle->color 			= $payload->color;
-    	$vehicle->features 			= $payload->features;
-    	$vehicle->price 			= $payload->price;
-    	$vehicle->discount_price 	= $payload->discount_price;
-    	$vehicle->location_axis 	= $payload->location_axis;
-    	$vehicle->destination_axis 	= $payload->destination_axis;
-    	$vehicle->is_avaliable 		= true;
-    	$vehicle->is_verified 		= true;
-    	$vehicle->save();
+        if($payload->update_flag == true){
+            $data = $this->updateOne($payload);
+        }else{
+            $vehicle                    = new Vehicle();
+            $vehicle->user_id           = 1;
+            $vehicle->vehicle_type      = $payload->vehicle_type;
+            $vehicle->vehicle_reg_type  = $payload->vehicle_type_reg;
+            $vehicle->model             = $payload->model;
+            $vehicle->year              = $payload->year;
+            $vehicle->reg_number        = $payload->reg_number;
+            $vehicle->color             = $payload->color;
+            $vehicle->features          = $payload->features;
+            $vehicle->price             = $payload->price;
+            $vehicle->discount_price    = $payload->discount_price;
+            $vehicle->location_axis     = $payload->location_axis;
+            $vehicle->destination_axis  = $payload->destination_axis;
+            $vehicle->is_avaliable      = true;
+            $vehicle->is_verified       = true;
+            $vehicle->save();
 
-    	$data = [
-    		'status' 	=> 'success',
-    		'message' 	=> 'Vehicle added!',
-    		'vehicle' 	=> $vehicle
-    	];
+            $data = [
+                'status'    => 'success',
+                'message'   => 'Vehicle added!',
+                'vehicle'   => $vehicle
+            ];
+        }
+    	
 
     	// return
     	return $data;
@@ -79,6 +84,31 @@ class Vehicle extends Model
     */
     public function updateOne($payload){
     	// body
+        $vehicle                    = Vehicle::find($payload->hidden_vehicle_id);
+        $vehicle->user_id           = 1;
+        $vehicle->vehicle_type      = $payload->vehicle_type;
+        $vehicle->vehicle_reg_type  = $payload->vehicle_type_reg;
+        $vehicle->model             = $payload->model;
+        $vehicle->year              = $payload->year;
+        $vehicle->reg_number        = $payload->reg_number;
+        $vehicle->color             = $payload->color;
+        $vehicle->features          = $payload->features;
+        $vehicle->price             = $payload->price;
+        $vehicle->discount_price    = $payload->discount_price;
+        $vehicle->location_axis     = $payload->location_axis;
+        $vehicle->destination_axis  = $payload->destination_axis;
+        $vehicle->update();
+
+        $update_vehicle = Vehicle::find($payload->hidden_vehicle_id);
+
+        $data = [
+            'status'    => 'success',
+            'message'   => 'Vehicle updated!',
+            'vehicle'   => $update_vehicle
+        ];
+
+        // return
+        return $data;
     }
     
     /*

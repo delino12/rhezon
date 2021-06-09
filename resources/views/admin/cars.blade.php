@@ -33,7 +33,7 @@
                             @foreach($cars as $car)
                             <tr>
                                 <td>
-                                    <img src="{{ $car->screenshot->document_url }}" class="rounded" width="82px" height="82px">
+                                    <img src="{{ $car->screenshot->document_url ?? asset('logo/favicon.png') }}" class="rounded" width="82px" height="82px">
                                 </td>
                                 <td>{{ $car->model }}</td>
                                 <td>{{ $car->year }}</td>
@@ -188,7 +188,7 @@
                         <div class="row">
                             <div class="col-md-4">
                                 <div class="form-group">
-                                    <button class="btn btn-outline-primary">
+                                    <button class="btn btn-outline-primary" id="add-btn">
                                         Add
                                     </button>
                                 </div>
@@ -241,6 +241,7 @@
         
         function showAddCarsModal() {
             // show modal
+            $("#add-btn").html("Add Vehicle");
             $("#add-car-modal").modal();
         }
 
@@ -271,7 +272,7 @@
             xhr.onreadystatechange = function() {
                 if (xhr.readyState == XMLHttpRequest.DONE) {
                     let results = JSON.parse(xhr.responseText);
-                    // console.log(results);
+                    console.log(results);
                     window.location.reload();
                 }
             }
@@ -314,6 +315,7 @@
             $("#destination_axis").val(car.destination_axis);
             // $("#features").html(car.features);
             $("#features").summernote('code', car.features);
+            $("#add-btn").html('Update');
             $("#add-car-modal").modal();
         }
 

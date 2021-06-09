@@ -34,6 +34,15 @@ class ExternalPageController extends Controller
 	*/
 	public function search(Request $request){
 		// body
-		return view('search');
+		$top_cars = Vehicle::orderBy('id', 'DESC')->limit(6)->get();
+		$all_cars = Vehicle::orderBy('id', 'DESC')->get();
+		$featured_cars = Vehicle::orderBy('id', 'ASC')->limit(6)->get();
+
+		$top_cars->transform(function($item){
+			$item->screenshot = VehiclePhoto::where('vehicle_id', $item->id)->first();
+			return $item;
+		});
+
+		return view('search', compact('top_cars', 'all_cars', 'featured_cars'));
 	}
 }
